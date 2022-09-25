@@ -1,6 +1,5 @@
 def main():
     price = int(input("Впишіть кількість гривень:"))
-
     print("1)")
     if (price > 100) and (price <= 500):
         print("Ціна зі знижкою: ", price - (price*3)/100, "Знижка:", (price*3)/100)
@@ -14,4 +13,5 @@ def main():
     sequence = str(input("Введіть будь-яке стрінг значення:"))
     b = sequence if (len(sequence) >= 1) else None
     print(b)
+
 main()
